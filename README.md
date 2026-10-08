@@ -117,7 +117,7 @@ This repo includes both production evaluation and benchmark-style evaluation:
 
 - database-backed evaluation datasets
 - weak-gold label generation
-- rubric-based LLM judge runs
+- rubric-based deterministic judge runs (rule-based scoring, no LLM in the loop)
 - disagreement queues for human review
 - production case evaluation against real workflow outputs
 
@@ -167,7 +167,7 @@ architecture.md    deeper knowledge-base and regulatory architecture
 - risk, root-cause, compliance, and routing agents
 - live workflow trace UI
 - production evaluation reports
-- benchmark dataset and judge infrastructure
+- benchmark datasets and rubric-based scoring
 - website-friendly case IDs such as `CASE00001`
 
 ## Tech Stack
